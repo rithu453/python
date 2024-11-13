@@ -4,7 +4,7 @@ def run(playwright: Playwright):
     chromium = playwright.chromium # or "firefox" or "webkit".
     browser = chromium.launch(headless=False)
     page = browser.new_page()
-    page.goto("https://amazon.com")
+    page.goto("https://flipkart.com")
     # other actions...
     browser.close()
 
